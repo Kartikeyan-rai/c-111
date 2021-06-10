@@ -7,6 +7,7 @@ function modelLoded() {
 function check() {
     img = document.getElementById("capture_img");
     clisefier.classify(img, gotResult);
+    classi.classify(img, gotResult);
 }
 function gotResult(error, results) {
     if (error) {
