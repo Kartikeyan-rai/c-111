@@ -1,0 +1,32 @@
+body{text-align: center;
+    font-family: 'Pacifico', cursive;
+    background-color: chartreuse;
+}
+#head img{height: 100px;
+width: 100px;}
+#head{background-color: white;
+color: orange;
+margin-top: 0px;}
+.main_div{background-color: cyan;
+border-style:dotted dashed solid double;
+border-color: whitesmoke;
+border-width: 2px;
+padding: 20px;
+margin-top: 10px;
+}
+#camera,#snapshot{height: 300px;
+width: 250px;
+border-style:ridge;
+border-color: red;
+border-width: 1px;
+box-shadow: 5px 10px 18px red;
+}
+.main_div label{width:250px;
+background-color: whitesmoke;
+padding: 5px;
+margin: 0px;
+font-size: large;}
+#capture,#result{width: 250px;
+margin-top: 5px;
+font-size: medium;}
+#capture_img{height: 300px;width: 250px;}
